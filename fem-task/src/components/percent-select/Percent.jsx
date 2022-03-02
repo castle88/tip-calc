@@ -1,15 +1,30 @@
 import React from "react";
+import "./percent.css";
 
 export default function Percent() {
   return (
-    <div>
+    <div className="percent-select-container">
       <label>Select Tip %</label>
-      <input type="radio" name="5%" value="5%" />
-      <input type="radio" name="5%" value="5%" />
-      <input type="radio" name="5%" value="5%" />
-      <input type="radio" name="5%" value="5%" />
-      <input type="radio" name="5%" value="5%" />
-      <input type="number" name="custom" value="0" placeholder="Custom" />
+      <ul>
+        <li>
+          <button>5%</button>
+        </li>
+        <li>
+          <button>10%</button>
+        </li>
+        <li>
+          <button>15%</button>
+        </li>
+        <li>
+          <button>25%</button>
+        </li>
+        <li>
+          <button>50</button>
+        </li>
+        <li>
+          <button>Custom</button>
+        </li>
+      </ul>
     </div>
   );
 }

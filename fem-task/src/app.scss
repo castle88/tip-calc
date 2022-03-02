@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 4rem;
+  background: hsl(185, 41%, 84%);
+  color: hsl(183, 100%, 15%);
+}
+main {
+  h1 {
+    margin-bottom: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}

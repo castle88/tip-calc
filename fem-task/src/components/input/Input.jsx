@@ -1,13 +1,13 @@
 import Bill from "../bill-input/Bill";
 import Percent from "../percent-select/Percent";
-import People from "../people-count/People";
+import "./input.css";
 
 export default function Input() {
   return (
-    <section>
+    <section className="input-container">
       <Bill />
       <Percent />
-      <People />
+      <Bill />
     </section>
   );
 }
