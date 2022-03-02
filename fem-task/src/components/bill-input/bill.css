@@ -6,5 +6,20 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  width: 100%;
+}
+
+.input-field-container input {
+  border: none;
+  -webkit-appearance: textfield;
+  -ms-appearance: textfield;
+  -moz-appearance: textfield;
+  appearance: textfield;
+  background: #f2f2f2;
+  padding: 12px;
+  border-radius: 3px;
+  width: 250px;
+  font-size: 14px;
+  text-align: end;
 }
 /*# sourceMappingURL=bill.css.map */
